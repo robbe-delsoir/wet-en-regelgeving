@@ -14,7 +14,7 @@ repo_name: 'Mosterdgas/Zeedam-Regels'
 
 # Configuration
 theme:
-  name: bootstrap
+  name: mkdocs
 #   features:
 #     - navigation.tabs
   favicon: img/Zeedam.jpg
