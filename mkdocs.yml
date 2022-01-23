@@ -1,0 +1,43 @@
+# Project information
+site_name: Zeedam regels
+site_url: 'https://regelszeedam.nl/'
+site_description: 'Zeedam regels'
+site_author: 'Zeedam'
+
+# Copyright
+copyright: Copyright &copy; 2021 Zeedam
+
+# Repository
+repo_url: 'https://github.com/Mosterdgas/Zeedam-Regels.git'
+repo_name: 'Mosterdgas/Zeedam-Regels'
+
+
+# Configuration
+theme:
+  name: bootstrap
+#   features:
+#     - navigation.tabs
+  favicon: img/Zeedam.jpg
+  logo: img/Zeedam.jpg
+  custom_dir: docs/overrides
+  language: nl
+plugins:
+  - git-revision-date-localized:
+      type: timeago
+      time_zone: Europe/Amsterdam
+      locale: nl
+      fallback_to_build_date: false
+  - search:
+      lang: nl
+markdown_extensions:
+  - admonition
+  - attr_list
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
+  - javascripts/tables.js
+nav:
+  - Home: index.md
+  - Berechting: Berechting.md
+  - Criminaliteit: Criminaliteit.md
+  - Offroad: Offroad.md
+  - Eiland: Eiland.md
