@@ -13,8 +13,9 @@ repo_name: 'Mosterdgas/Zeedam-Regels'
 
 
 # Configuration
-theme: mkdocs
-  name: readthedocs
+theme:
+  features:
+    - navigation.tabs
   favicon: img/Zeedam.jpg
   logo: img/Zeedam.jpg
   custom_dir: docs/overrides
