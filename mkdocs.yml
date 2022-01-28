@@ -1,6 +1,6 @@
 # Project information
 site_name: Zeedam regels
-site_url: 'https://regelszeedam.nl/'
+site_url: 'https://robbe-delsoir.github.io/wet-en-regelgeving/'
 site_description: 'Zeedam regels'
 site_author: 'Zeedam'
 
@@ -8,7 +8,7 @@ site_author: 'Zeedam'
 copyright: Copyright &copy; 2021 Zeedam
 
 # Repository
-repo_url: 'https://github.com/Mosterdgas/Zeedam-Regels.git'
+repo_url: 'https://github.com/robbe-delsoir/wet-en-regelgeving'
 repo_name: 'Mosterdgas/Zeedam-Regels'
 
 
