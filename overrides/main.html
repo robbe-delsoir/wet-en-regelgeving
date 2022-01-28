@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+  {{ super() }}
+  <a href="https://robbe-delsoir.github.io/wet-en-regelgeving/Eiland">Eiland regels</a>
+  {% if git_page_authors %}
+    <div class="md-source-date">
+      <small>
+          Authors: {{ git_page_authors | default('enable mkdocs-git-authors-plugin') }}
+      </small>
+    </div>
+  {% endif %}
+{% endblock %}
