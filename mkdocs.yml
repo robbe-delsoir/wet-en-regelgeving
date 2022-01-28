@@ -17,8 +17,7 @@ theme: mkdocs
   name: readthedocs
     analytics:
         gtag: G-ABC123
-  features:
-    navigation.tabs
+
   favicon: img/Zeedam.jpg
   logo: img/Zeedam.jpg
   custom_dir: docs/overrides
